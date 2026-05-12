@@ -1,11 +1,12 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav';
-import Landing from './pages/Landing';
-import Triage from './pages/Triage';
-import Resources from './pages/Resources';
-import Handoff from './pages/Handoff';
-import ForAFriend from './pages/ForAFriend';
-import Admin from './pages/Admin';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./components/Nav";
+import Admin from "./pages/Admin";
+import ForAFriend from "./pages/ForAFriend";
+import Handoff from "./pages/Handoff";
+import Landing from "./pages/Landing";
+import Resources from "./pages/Resources";
+import ServiceResults from "./pages/ServiceResults";
+import Triage from "./pages/Triage";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/handoff" element={<Handoff />} />
         <Route path="/for-a-friend" element={<ForAFriend />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/services" element={<ServiceResults />} />
       </Routes>
     </BrowserRouter>
   );
