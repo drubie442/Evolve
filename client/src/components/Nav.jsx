@@ -15,6 +15,7 @@ export default function Nav() {
           <Link to="/resources">Find Support</Link>
           <Link to="/for-a-friend">For a Friend</Link>
           <Link to="/handoff">Staff Handoff</Link>
+          <a href="/staff/">Carer Portal</a>
           <Link to="/admin">Admin</Link>
         </div>
       </div>

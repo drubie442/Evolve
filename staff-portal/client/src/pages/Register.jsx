@@ -19,7 +19,7 @@ export default function Register() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch('/api/orgs').then(r => r.json()).then(setOrgs).catch(() => {});
+    fetch('/api/staff/orgs').then(r => r.json()).then(setOrgs).catch(() => {});
   }, []);
 
   function update(field) {
@@ -39,7 +39,7 @@ export default function Register() {
     }
     setLoading(true);
     try {
-      const res = await fetch('/api/auth/register', {
+      const res = await fetch('/api/staff/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

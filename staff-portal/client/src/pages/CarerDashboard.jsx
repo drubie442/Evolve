@@ -16,9 +16,9 @@ export default function CarerDashboard() {
   const loadData = useCallback(async () => {
     try {
       const [ticketsRes, meRes, lbRes] = await Promise.all([
-        fetch('/api/tickets', { headers: authHeaders() }),
-        fetch('/api/auth/me',  { headers: authHeaders() }),
-        fetch('/api/orgs/leaderboard'),
+        fetch('/api/staff/tickets', { headers: authHeaders() }),
+        fetch('/api/staff/auth/me',  { headers: authHeaders() }),
+        fetch('/api/staff/orgs/leaderboard'),
       ]);
       if (ticketsRes.ok) setTickets(await ticketsRes.json());
       if (meRes.ok) {

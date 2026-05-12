@@ -18,7 +18,7 @@ export default function StatusModal({ ticket, onClose, onUpdated }) {
     setError('');
     setLoading(true);
     try {
-      const res = await fetch(`/api/tickets/${ticket.id}/status`, {
+      const res = await fetch(`/api/staff/tickets/${ticket.id}/status`, {
         method: 'PATCH',
         headers: authHeaders(),
         body: JSON.stringify({ status, reason }),

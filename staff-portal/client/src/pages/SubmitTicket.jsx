@@ -33,7 +33,7 @@ export default function SubmitTicket() {
     }
     setLoading(true);
     try {
-      const res = await fetch('/api/tickets', {
+      const res = await fetch('/api/staff/tickets', {
         method: 'POST',
         headers: authHeaders(),
         body: JSON.stringify(form),

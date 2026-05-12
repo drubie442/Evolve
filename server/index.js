@@ -15,11 +15,23 @@ app.use("/api/handoff", require("./routes/handoff"));
 app.use("/api/partner", require("./routes/partner"));
 app.use("/api/support-services", require("./routes/support-services"));
 
+// Staff portal API routes
+app.use("/api/staff/auth", require("./routes/staff-auth"));
+app.use("/api/staff/tickets", require("./routes/staff-tickets"));
+app.use("/api/staff/orgs", require("./routes/staff-orgs"));
+
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 
 // Serve React frontend in production (built files copied to server/public)
 const publicDir = path.join(__dirname, "public");
 app.use(express.static(publicDir));
+
+// Serve staff portal SPA under /staff/
+const staffDir = path.join(__dirname, "staff-portal");
+app.use("/staff", express.static(staffDir));
+app.use("/staff", (req, res) => {
+  res.sendFile(path.join(staffDir, "index.html"));
+});
 
 // React Router fallback — serve index.html for any unmatched route
 app.use((req, res) => {

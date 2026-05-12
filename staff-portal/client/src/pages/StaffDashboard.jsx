@@ -20,7 +20,7 @@ export default function StaffDashboard() {
   const load = useCallback(async () => {
     setError('');
     try {
-      const res = await fetch('/api/tickets', { headers: authHeaders() });
+      const res = await fetch('/api/staff/tickets', { headers: authHeaders() });
       if (!res.ok) { setError('Failed to load tickets.'); return; }
       setTickets(await res.json());
     } catch {

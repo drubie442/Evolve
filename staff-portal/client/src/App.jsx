@@ -28,7 +28,7 @@ function StaffRoute({ children }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/staff">
       <Nav />
       <Routes>
         <Route path="/"              element={<RootRedirect />} />

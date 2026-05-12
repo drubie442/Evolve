@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently --names \"server,client\" --prefix-colors \"green,cyan\" \"npm run dev:server\" \"npm run dev:client\"",
+    "dev": "concurrently --names \"server,client,staff\" --prefix-colors \"green,cyan,magenta\" \"npm run dev:server\" \"npm run dev:client\" \"npm run dev:staff\"",
     "dev:server": "cd server && node --watch index.js",
     "dev:client": "cd client && npm run dev",
+    "dev:staff": "cd staff-portal/client && npm run dev",
     "start:server": "cd server && node index.js",
-    "install:all": "cd client && npm install && cd ../server && npm install",
+    "install:all": "cd client && npm install && cd ../server && npm install && cd ../staff-portal/client && npm install",
     "docker:build": "docker build -t evolve-wellbeing .",
     "docker:run": "docker run -p 3001:3001 evolve-wellbeing"
   },

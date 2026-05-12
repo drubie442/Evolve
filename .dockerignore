@@ -1,6 +1,9 @@
 node_modules
 client/node_modules
 client/dist
+staff-portal/client/node_modules
+staff-portal/client/dist
+staff-portal/server/node_modules
 .git
 *.md
 .env*
