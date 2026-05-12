@@ -1,2 +1,8 @@
 node_modules/
 .bin/
+node_modules/.bin/conc
+node_modules/.bin/concurrently
+node_modules/.bin/tree-kill
+node_modules/.bin/tree-kill
+server/node_modules/.bin/bcrypt
+server/node_modules/.bin/semver
