@@ -37,9 +37,17 @@ export default function ActionCard({ result, onReset }) {
         <p className="text-muted mb-4" style={{ fontSize: 'var(--text-sm)' }}>🕐 {primary.availability}</p>
       )}
       <div className="action-card__contacts">
+        <a className="btn btn--primary btn--full btn--large" href="tel:0240961100">
+          📞 Call Evolve Hub — 02 4096 1100
+        </a>
         {primary.phone && (
-          <a className="btn btn--primary btn--full btn--large" href={`tel:${primary.phone.replace(/\s/g, '')}`}>
+          <a className="btn btn--primary btn--full" href={`tel:${primary.phone.replace(/\s/g, '')}`}>
             📞 Call {primary.phone}
+          </a>
+        )}
+        {!primary.phone && primary.address && (
+          <a className="btn btn--secondary btn--full" href={`https://maps.google.com/?q=${encodeURIComponent(primary.address)}`} target="_blank" rel="noopener noreferrer">
+            📍 Get Directions — {primary.address}
           </a>
         )}
         {primary.website && (
