@@ -7,6 +7,9 @@ A mental health first-contact and triage web app. React + Vite frontend, Express
 The fridge magnet, QR code, and hospital card are the distribution mechanism. This app is what happens *after the scan* — and it must work for everyone from a scared 14-year-old to an 80-year-old with no smartphone experience.
 
 ---
+## Deployment
+
+https://evolve-app.delightfulpebble-5e64afb1.australiaeast.azurecontainerapps.io/
 
 ## Pages & Features
 
