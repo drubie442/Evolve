@@ -1,8 +1,6 @@
 import { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
-import CrisisBanner from '../components/CrisisBanner';
-import ActionCard from '../components/ActionCard';
-
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useTriageSelections } from '../context/TriageContext';
 const OBSERVATIONS = [
   { value: 'withdrawn', label: '😶 They seem withdrawn' },
   { value: 'anxiety', label: '😰 They seem anxious or worried' },
@@ -16,13 +14,12 @@ const OBSERVATIONS = [
 
 export default function ForAFriend() {
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const { saveSelections } = useTriageSelections();
   const mode = searchParams.get('mode') || 'default';
   const modeClass = mode === 'elder' ? 'mode-elder' : '';
-  const navigate = useNavigate();
 
   const [observations, setObservations] = useState([]);
-  const [result, setResult] = useState(null);
-  const [loading, setLoading] = useState(false);
 
   function toggleObservation(value) {
     setObservations(prev =>
@@ -30,34 +27,18 @@ export default function ForAFriend() {
     );
   }
 
-  async function handleSubmit() {
+  function handleSubmit() {
     if (observations.length === 0) return;
-    setLoading(true);
     const mappedConcerns = observations.map(v => v === 'withdrawn' ? 'loneliness' : v);
     const isCrisis = observations.includes('crisis');
-    try {
-      const res = await fetch('/api/triage', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          forSelf: false,
-          concerns: mappedConcerns,
-          urgency: isCrisis ? 'today' : 'days',
-          ageGroup: 'adult',
-        }),
-      });
-      const data = await res.json();
-      setResult(data);
-    } catch {
-      setResult(null);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  function reset() {
-    setObservations([]);
-    setResult(null);
+    saveSelections({
+      forSelf: false,
+      concerns: mappedConcerns,
+      urgency: isCrisis ? 'crisis' : 'struggling',
+      ageGroup: 'adult',
+      region: '',
+    });
+    navigate('/services');
   }
 
   return (
@@ -70,8 +51,7 @@ export default function ForAFriend() {
           You can help connect someone you care about with support — without them needing to do anything right now.
         </p>
 
-        {!result && (
-          <>
+        <>
             <p style={{ fontWeight: 700, marginBottom: '1rem' }}>What have you noticed? Select all that apply.</p>
             <div className="concern-grid">
               {OBSERVATIONS.map(o => (
@@ -79,7 +59,6 @@ export default function ForAFriend() {
                   key={o.value}
                   className={`concern-btn ${observations.includes(o.value) ? 'concern-btn--selected' : ''}`}
                   onClick={() => toggleObservation(o.value)}
-                  disabled={loading}
                 >
                   {o.label}
                 </button>
@@ -88,27 +67,14 @@ export default function ForAFriend() {
             <button
               className="btn btn--primary btn--full"
               style={{ marginTop: '1.5rem', fontSize: 'var(--text-lg)', padding: '1rem' }}
-              disabled={observations.length === 0 || loading}
+              disabled={observations.length === 0}
               onClick={handleSubmit}
             >
-              {loading ? 'Finding the right resource...' : 'Find support →'}
+              Find support →
             </button>
           </>
-        )}
 
-        {result && (
-          <>
-            {result.crisis && <CrisisBanner />}
-            <ActionCard result={result} onReset={reset} />
-            <div style={{ marginTop: '1.5rem', background: 'var(--clr-bg)', borderRadius: 'var(--radius-md)', padding: '1rem', border: '1px solid var(--clr-border)' }}>
-              <p style={{ fontWeight: 600, marginBottom: '0.5rem' }}>How to share this:</p>
-              <p className="text-muted" style={{ fontSize: 'var(--text-sm)' }}>
-                You can share this page link, screenshot this card, or simply show them this screen.
-                The Evolve Hub also welcomes drop-ins — you can go together if that feels easier.
-              </p>
-            </div>
-          </>
-        )}
+
       </div>
     </div>
   );

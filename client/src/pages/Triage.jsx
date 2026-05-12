@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { useTriageSelections } from "../context/TriageContext";
+import CrisisBanner from "../components/CrisisBanner";
 
 const CONCERNS = [
   { value: "anxiety", label: "😰 Anxiety" },
@@ -137,6 +138,7 @@ export default function Triage() {
 
         {step === 2 && (
           <div>
+            {jumpToCrisis && <CrisisBanner />}
             <h2
               style={{
                 fontSize: "var(--text-2xl)",

@@ -143,9 +143,9 @@ export default function Landing() {
             <div style={{ marginTop: "2rem" }}>
               <a
                 className="btn btn--primary btn--large btn--full"
-                href="tel:1300000000"
+                href="tel:0240961100"
               >
-                📞 Prefer to call? 1300 000 000
+                📞 Prefer to call? 02 4096 1100
               </a>
             </div>
           )}
