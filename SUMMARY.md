@@ -2,14 +2,15 @@
 
 ## Overview
 
-A web app designed to connect people in the Hunter region with mental health support at the moment they need it. Reached via QR codes on fridge magnets, hospital discharge cards, bank leaflets, and other non-traditional channels — no account, no sign-up, no friction.
+Evolve connects vulnerable people to support services instantly — via wearables, QR codes or carers — triaging needs and booking the right service automatically, so help arrives faster.
 
 ---
 
 ## Public-Facing App
 
 ### Landing Page
-The entry point. Three large, clear buttons ask one question: *How are you feeling right now?*
+
+The entry point. Three large, clear buttons ask one question: _How are you feeling right now?_
 
 - **I'm in crisis** — immediately surfaces 000 and Lifeline tap-to-call buttons, plus walk-in addresses for both Safe Spaces
 - **I'm struggling** — guides the user through a short triage wizard
@@ -20,6 +21,7 @@ Mode variants adapt the layout for different audiences (e.g. larger text and a d
 ---
 
 ### Crisis Path
+
 For anyone who indicates they need immediate help, the app prominently displays:
 
 - **000** — Emergency Services (tap to call)
@@ -32,6 +34,7 @@ These contacts remain visible throughout the crisis flow so they are never more 
 ---
 
 ### Triage Wizard ("I'm Struggling")
+
 A 4-step guided flow that filters to the most relevant support services:
 
 1. **Who is this for?** — myself or someone I care about
@@ -44,11 +47,13 @@ Selections are matched against a structured database of Hunter region services, 
 ---
 
 ### For a Friend
-A single-page flow for someone who is concerned about another person. Multi-select observations (e.g. *they seem withdrawn*, *I'm worried about their safety*) are mapped to concern categories and fed into the same service-matching engine. Results can be shared or shown directly to the person in need.
+
+A single-page flow for someone who is concerned about another person. Multi-select observations (e.g. _they seem withdrawn_, _I'm worried about their safety_) are mapped to concern categories and fed into the same service-matching engine. Results can be shared or shown directly to the person in need.
 
 ---
 
 ### Resource Browser
+
 A filterable directory of all Hunter region mental health services. Supports filtering by concern and age group. Crisis services are surfaced first. Each card shows availability, contact details, and tap-to-call or tap-for-directions links.
 
 ---
@@ -58,6 +63,7 @@ A filterable directory of all Hunter region mental health services. Supports fil
 Built for service workers — hospital discharge staff, GPs, social workers, police — to refer patients who may not engage with the system on their own.
 
 ### Carer Flow
+
 1. Register with name, email, organisation, and specialty
 2. Submit a referral ticket: patient name, contact details, concern, and urgency level
 3. View submitted tickets and track their status
@@ -67,12 +73,14 @@ Built for service workers — hospital discharge staff, GPs, social workers, pol
 **Badges:** First Steps, Helping Hand, Dedicated Advocate, Community Champion, Crisis Responder
 
 ### Staff Flow (Evolve Hub)
+
 1. Login with staff credentials
 2. View all open referral tickets across all organisations
 3. Claim, progress, and close tickets with a reason recorded at each step
 4. Full status history on every ticket
 
 ### Seed login
+
 Staff access: `staff@evolve.org.au` / `evolve2024`
 
 ---
