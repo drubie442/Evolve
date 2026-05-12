@@ -28,7 +28,7 @@ export default function Triage() {
 
   const [step, setStep] = useState(jumpToCrisis ? 3 : 1);
   const [forSelf, setForSelf] = useState(true);
-  const [concern, setConcern] = useState('');
+  const [concerns, setConcerns] = useState([]);
   const [urgency, setUrgency] = useState(jumpToCrisis ? 'today' : '');
   const [ageGroup, setAgeGroup] = useState(
     mode === 'youth' ? 'youth' : mode === 'elder' ? 'elder' : 'adult'
@@ -38,13 +38,13 @@ export default function Triage() {
 
   useEffect(() => {
     if (jumpToCrisis) {
-      submitTriage('crisis', 'today');
+      submitTriage(['crisis'], 'today');
     }
   }, []);
 
   const totalSteps = 3;
 
-  async function submitTriage(overrideConcern, overrideUrgency) {
+  async function submitTriage(overrideConcerns, overrideUrgency) {
     setLoading(true);
     try {
       const res = await fetch('/api/triage', {
@@ -52,7 +52,7 @@ export default function Triage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           forSelf,
-          concern: overrideConcern || concern,
+          concerns: overrideConcerns || (concerns.length ? concerns : ['general']),
           urgency: overrideUrgency || urgency,
           ageGroup,
         }),
@@ -66,10 +66,16 @@ export default function Triage() {
     }
   }
 
+  function toggleConcern(value) {
+    setConcerns(prev =>
+      prev.includes(value) ? prev.filter(c => c !== value) : [...prev, value]
+    );
+  }
+
   function reset() {
     setStep(1);
     setForSelf(true);
-    setConcern('');
+    setConcerns([]);
     setUrgency('');
     setResult(null);
   }
@@ -122,20 +128,28 @@ export default function Triage() {
         {step === 2 && (
           <div>
             <h2 style={{ fontSize: 'var(--text-2xl)', fontWeight: 800, marginBottom: '0.5rem' }}>
-              What's the biggest thing going on?
+              What's going on?
             </h2>
-            <p className="text-muted mb-6">Choose the one that fits best.</p>
+            <p className="text-muted mb-6">Select everything that applies.</p>
             <div className="concern-grid">
               {CONCERNS.map(c => (
                 <button
                   key={c.value}
-                  className={`concern-btn ${concern === c.value ? 'concern-btn--selected' : ''}`}
-                  onClick={() => { setConcern(c.value); setStep(3); }}
+                  className={`concern-btn ${concerns.includes(c.value) ? 'concern-btn--selected' : ''}`}
+                  onClick={() => toggleConcern(c.value)}
                 >
                   {c.label}
                 </button>
               ))}
             </div>
+            <button
+              className="btn btn--primary btn--full"
+              style={{ marginTop: '1.5rem', fontSize: 'var(--text-lg)', padding: '1rem' }}
+              disabled={concerns.length === 0}
+              onClick={() => setStep(3)}
+            >
+              Next →
+            </button>
           </div>
         )}
 
@@ -149,7 +163,7 @@ export default function Triage() {
                   key={u.value}
                   className={`concern-btn ${urgency === u.value ? 'concern-btn--selected' : ''}`}
                   style={{ fontSize: 'var(--text-lg)', padding: '1.25rem' }}
-                  onClick={() => { setUrgency(u.value); submitTriage(concern, u.value); }}
+                  onClick={() => { setUrgency(u.value); submitTriage(concerns, u.value); }}
                 >
                   {u.label}
                 </button>

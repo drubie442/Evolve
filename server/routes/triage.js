@@ -3,12 +3,15 @@ const router = express.Router();
 const resources = require('../data/resources');
 
 // Triage logic: given answers, return a single best-match action card
-// Body: { forSelf: bool, concern: string, urgency: string, ageGroup: string }
+// Body: { forSelf: bool, concerns: string[], urgency: string, ageGroup: string }
 router.post('/', (req, res) => {
-  const { forSelf = true, concern = 'general', urgency = 'days', ageGroup = 'adult' } = req.body;
+  const { forSelf = true, urgency = 'days', ageGroup = 'adult' } = req.body;
+  // Accept either array (new) or single string (legacy)
+  const rawConcerns = req.body.concerns || (req.body.concern ? [req.body.concern] : ['general']);
+  const concerns = Array.isArray(rawConcerns) ? rawConcerns : [rawConcerns];
 
   // Crisis path — always surface emergency contacts first
-  if (urgency === 'today' || concern === 'crisis') {
+  if (urgency === 'today' || concerns.includes('crisis')) {
     const crisisResource = resources.find(r => r.id === 9); // 000
     const lifeline = resources.find(r => r.id === 2);
     return res.json({
@@ -21,13 +24,13 @@ router.post('/', (req, res) => {
     });
   }
 
-  // Score resources by match
+  // Score resources by match — each matched concern adds to score
   const scored = resources
     .filter(r => !r.crisis)
     .filter(r => ageGroup === 'any' || r.ageGroups.includes(ageGroup))
     .map(r => {
       let score = 0;
-      if (r.concerns.includes(concern)) score += 3;
+      concerns.forEach(c => { if (r.concerns.includes(c)) score += 3; });
       if (r.concerns.includes('general')) score += 1;
       if (r.type === 'In-person') score += 1; // prefer in-person for human connection
       return { ...r, score };

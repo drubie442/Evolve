@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import CrisisBanner from '../components/CrisisBanner';
 import ActionCard from '../components/ActionCard';
 
@@ -20,21 +20,29 @@ export default function ForAFriend() {
   const modeClass = mode === 'elder' ? 'mode-elder' : '';
   const navigate = useNavigate();
 
-  const [observation, setObservation] = useState('');
+  const [observations, setObservations] = useState([]);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  async function handleSelect(value) {
-    setObservation(value);
+  function toggleObservation(value) {
+    setObservations(prev =>
+      prev.includes(value) ? prev.filter(o => o !== value) : [...prev, value]
+    );
+  }
+
+  async function handleSubmit() {
+    if (observations.length === 0) return;
     setLoading(true);
+    const mappedConcerns = observations.map(v => v === 'withdrawn' ? 'loneliness' : v);
+    const isCrisis = observations.includes('crisis');
     try {
       const res = await fetch('/api/triage', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           forSelf: false,
-          concern: value === 'withdrawn' ? 'loneliness' : value,
-          urgency: value === 'crisis' ? 'today' : 'days',
+          concerns: mappedConcerns,
+          urgency: isCrisis ? 'today' : 'days',
           ageGroup: 'adult',
         }),
       });
@@ -48,7 +56,7 @@ export default function ForAFriend() {
   }
 
   function reset() {
-    setObservation('');
+    setObservations([]);
     setResult(null);
   }
 
@@ -64,20 +72,27 @@ export default function ForAFriend() {
 
         {!result && (
           <>
-            <p style={{ fontWeight: 700, marginBottom: '1rem' }}>What have you noticed?</p>
+            <p style={{ fontWeight: 700, marginBottom: '1rem' }}>What have you noticed? Select all that apply.</p>
             <div className="concern-grid">
               {OBSERVATIONS.map(o => (
                 <button
                   key={o.value}
-                  className={`concern-btn ${observation === o.value ? 'concern-btn--selected' : ''}`}
-                  onClick={() => handleSelect(o.value)}
+                  className={`concern-btn ${observations.includes(o.value) ? 'concern-btn--selected' : ''}`}
+                  onClick={() => toggleObservation(o.value)}
                   disabled={loading}
                 >
                   {o.label}
                 </button>
               ))}
             </div>
-            {loading && <p className="text-muted mt-4">Finding the right resource...</p>}
+            <button
+              className="btn btn--primary btn--full"
+              style={{ marginTop: '1.5rem', fontSize: 'var(--text-lg)', padding: '1rem' }}
+              disabled={observations.length === 0 || loading}
+              onClick={handleSubmit}
+            >
+              {loading ? 'Finding the right resource...' : 'Find support →'}
+            </button>
           </>
         )}
 
