@@ -1,5 +1,11 @@
-import { Link, useNavigate } from 'react-router-dom';
-import { isLoggedIn, isStaff, isCarer, getUser, clearAuth } from '../utils/auth';
+import { Link, useNavigate } from "react-router-dom";
+import {
+  clearAuth,
+  getUser,
+  isCarer,
+  isLoggedIn,
+  isStaff,
+} from "../utils/auth";
 
 export default function Nav() {
   const navigate = useNavigate();
@@ -8,7 +14,7 @@ export default function Nav() {
 
   function logout() {
     clearAuth();
-    navigate('/login');
+    navigate("/login");
   }
 
   return (
@@ -23,30 +29,42 @@ export default function Nav() {
           {!loggedIn && (
             <>
               <Link to="/carer/login">Carer sign in</Link>
-              <Link to="/register" className="btn btn-primary btn-sm">Register as carer</Link>
+              <Link to="/register" className="btn btn-primary btn-sm">
+                Register as carer
+              </Link>
             </>
           )}
 
           {loggedIn && isCarer() && (
             <>
               <Link to="/carer">My Dashboard</Link>
-              <Link to="/carer/submit" className="btn btn-primary btn-sm">+ Submit Ticket</Link>
+              <Link to="/carer/submit" className="btn btn-primary btn-sm">
+                + Submit Ticket
+              </Link>
             </>
           )}
 
           {loggedIn && isStaff() && (
-            <Link to="/staff">Ticket Queue</Link>
+            <>
+              <Link to="/dashboard">Ticket Queue</Link>
+              <Link to="/bookings">Auto-Bookings</Link>
+              <Link to="/patients">Patients</Link>
+            </>
           )}
 
           {loggedIn && (
             <div className="nav-user">
               <span className="nav-user__name">
                 {user?.level?.icon} {user?.name}
-                {user?.role === 'carer' && (
-                  <span className="nav-user__points">{user?.points ?? 0} pts</span>
+                {user?.role === "carer" && (
+                  <span className="nav-user__points">
+                    {user?.points ?? 0} pts
+                  </span>
                 )}
               </span>
-              <button onClick={logout} className="btn btn-ghost btn-sm">Sign out</button>
+              <button onClick={logout} className="btn btn-ghost btn-sm">
+                Sign out
+              </button>
             </div>
           )}
         </div>

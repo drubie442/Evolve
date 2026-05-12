@@ -20,6 +20,9 @@ app.use("/api/staff/auth", require("./routes/staff-auth"));
 app.use("/api/staff/tickets", require("./routes/staff-tickets"));
 app.use("/api/staff/orgs", require("./routes/staff-orgs"));
 
+// Wearable / QR-code auto-referral API
+app.use("/api/refer", require("./routes/refer"));
+
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 
 // Serve React frontend in production (built files copied to server/public)
@@ -27,7 +30,7 @@ const publicDir = path.join(__dirname, "public");
 app.use(express.static(publicDir));
 
 // Serve staff portal SPA under /staff/
-const staffDir = path.join(__dirname, "staff-portal");
+const staffDir = path.join(__dirname, "../staff-portal/client/dist");
 app.use("/staff", express.static(staffDir));
 app.use("/staff", (req, res) => {
   res.sendFile(path.join(staffDir, "index.html"));

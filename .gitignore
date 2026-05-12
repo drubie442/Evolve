@@ -6,3 +6,11 @@ node_modules/.bin/tree-kill
 node_modules/.bin/tree-kill
 server/node_modules/.bin/bcrypt
 server/node_modules/.bin/semver
+
+# Build output
+staff-portal/client/dist/
+client/dist/
+
+# Misc stray files
+({
+s.wait_time_days
