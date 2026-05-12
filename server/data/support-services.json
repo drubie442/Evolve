@@ -34,7 +34,8 @@
     "updated_date": "2026-05-07T02:50:39.733000",
     "created_by_id": "anonymous",
     "created_by": "anonymous",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -71,7 +72,8 @@
     "updated_date": "2026-05-07T03:56:44.082000",
     "created_by_id": "anonymous",
     "created_by": "anonymous",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -108,7 +110,8 @@
     "updated_date": "2026-05-07T03:31:48.890000",
     "created_by_id": "anonymous",
     "created_by": "anonymous",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -145,7 +148,8 @@
     "updated_date": "2026-04-22T08:15:48.943000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -177,7 +181,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -209,7 +214,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -241,7 +247,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -273,7 +280,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -305,7 +313,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -337,7 +346,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -369,7 +379,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -401,7 +412,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -433,7 +445,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -465,7 +478,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -497,7 +511,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -529,7 +544,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -561,7 +577,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -593,7 +610,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -625,7 +643,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -657,7 +676,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -689,7 +709,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -721,7 +742,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -753,7 +775,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -785,7 +808,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -817,7 +841,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -849,7 +874,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -881,7 +907,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -913,7 +940,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -945,7 +973,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -977,7 +1006,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1009,7 +1039,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -1041,7 +1072,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1073,7 +1105,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1105,7 +1138,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1137,7 +1171,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1169,7 +1204,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1201,7 +1237,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1233,7 +1270,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1265,7 +1303,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1297,7 +1336,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1329,7 +1369,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1361,7 +1402,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1393,7 +1435,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1425,7 +1468,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1457,7 +1501,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1489,7 +1534,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1526,7 +1572,8 @@
     "updated_date": "2026-04-23T00:16:48.296000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1558,7 +1605,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1590,7 +1638,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1622,7 +1671,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1654,7 +1704,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1686,7 +1737,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1718,7 +1770,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -1750,7 +1803,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1782,7 +1836,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -1814,7 +1869,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -1846,7 +1902,8 @@
     "updated_date": "2026-04-20T00:19:19.428000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": true,
@@ -1878,7 +1935,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -1910,7 +1968,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -1942,7 +2001,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": false,
@@ -1974,7 +2034,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2006,7 +2067,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2038,7 +2100,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2070,7 +2133,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2102,7 +2166,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2134,7 +2199,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 28
   },
   {
     "region_newcastle": true,
@@ -2166,7 +2232,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2198,7 +2265,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 2
   },
   {
     "region_newcastle": true,
@@ -2230,7 +2298,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2262,7 +2331,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2294,7 +2364,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2331,7 +2402,8 @@
     "updated_date": "2026-05-07T02:53:26.307000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2363,7 +2435,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2395,7 +2468,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2427,7 +2501,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2459,7 +2534,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2491,7 +2567,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2523,7 +2600,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2555,7 +2633,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2587,7 +2666,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2619,7 +2699,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2651,7 +2732,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2683,7 +2765,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2715,7 +2798,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2747,7 +2831,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2779,7 +2864,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2811,7 +2897,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -2843,7 +2930,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -2875,7 +2963,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 21
   },
   {
     "region_newcastle": true,
@@ -2907,7 +2996,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -2939,7 +3029,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -2971,7 +3062,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3003,7 +3095,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3035,7 +3128,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3067,7 +3161,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3104,7 +3199,8 @@
     "updated_date": "2026-05-07T03:42:34.824000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": true,
@@ -3141,7 +3237,8 @@
     "updated_date": "2026-05-07T04:07:47.308000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -3178,7 +3275,8 @@
     "updated_date": "2026-05-07T03:32:24.237000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3215,7 +3313,8 @@
     "updated_date": "2026-05-07T03:32:32.002000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -3252,7 +3351,8 @@
     "updated_date": "2026-05-07T03:32:41.729000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -3289,7 +3389,8 @@
     "updated_date": "2026-05-07T03:33:02.549000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3326,7 +3427,8 @@
     "updated_date": "2026-05-07T03:33:15.597000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3363,7 +3465,8 @@
     "updated_date": "2026-05-07T03:33:24.234000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -3400,7 +3503,8 @@
     "updated_date": "2026-05-07T03:35:02.729000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": true,
@@ -3437,7 +3541,8 @@
     "updated_date": "2026-05-07T03:35:12.771000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 1
   },
   {
     "region_newcastle": false,
@@ -3474,7 +3579,8 @@
     "updated_date": "2026-05-07T03:35:19.059000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3511,7 +3617,8 @@
     "updated_date": "2026-05-07T03:35:25.561000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3548,7 +3655,8 @@
     "updated_date": "2026-05-07T03:35:33.712000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3585,7 +3693,8 @@
     "updated_date": "2026-05-07T03:35:48.568000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -3622,7 +3731,8 @@
     "updated_date": "2026-05-07T03:35:57.285000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3659,7 +3769,8 @@
     "updated_date": "2026-05-07T03:36:04.129000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3696,7 +3807,8 @@
     "updated_date": "2026-05-07T03:36:11.420000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -3733,7 +3845,8 @@
     "updated_date": "2026-05-07T03:30:42.752000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3770,7 +3883,8 @@
     "updated_date": "2026-05-07T03:36:17.611000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3807,7 +3921,8 @@
     "updated_date": "2026-05-07T03:36:23.755000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3844,7 +3959,8 @@
     "updated_date": "2026-05-07T03:36:30.441000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3881,7 +3997,8 @@
     "updated_date": "2026-05-07T03:36:36.511000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": true,
@@ -3918,7 +4035,8 @@
     "updated_date": "2026-05-07T03:36:43.105000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -3955,7 +4073,8 @@
     "updated_date": "2026-05-07T03:36:49.990000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -3992,7 +4111,8 @@
     "updated_date": "2026-05-07T03:37:02.763000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -4029,7 +4149,8 @@
     "updated_date": "2026-05-07T03:37:09.187000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -4061,7 +4182,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4093,7 +4215,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -4125,7 +4248,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": false,
@@ -4157,7 +4281,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -4189,7 +4314,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4221,7 +4347,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -4253,7 +4380,8 @@
     "updated_date": "2026-04-20T00:19:17.472000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 1
   },
   {
     "region_newcastle": true,
@@ -4285,7 +4413,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4317,7 +4446,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4349,7 +4479,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4381,7 +4512,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 1
   },
   {
     "region_newcastle": true,
@@ -4413,7 +4545,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4445,7 +4578,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 3
   },
   {
     "region_newcastle": true,
@@ -4477,7 +4611,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 3
   },
   {
     "region_newcastle": false,
@@ -4509,7 +4644,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 9
   },
   {
     "region_newcastle": true,
@@ -4541,7 +4677,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -4573,7 +4710,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 1
   },
   {
     "region_newcastle": true,
@@ -4605,7 +4743,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4637,7 +4776,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 1
   },
   {
     "region_newcastle": true,
@@ -4669,7 +4809,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 4
   },
   {
     "region_newcastle": true,
@@ -4701,7 +4842,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 1
   },
   {
     "region_newcastle": false,
@@ -4733,7 +4875,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -4765,7 +4908,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -4797,7 +4941,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -4829,7 +4974,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4861,7 +5007,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -4893,7 +5040,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 21
   },
   {
     "region_newcastle": true,
@@ -4925,7 +5073,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -4957,7 +5106,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -4989,7 +5139,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5021,7 +5172,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -5053,7 +5205,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -5085,7 +5238,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5117,7 +5271,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5149,7 +5304,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 7
   },
   {
     "region_newcastle": false,
@@ -5181,7 +5337,8 @@
     "updated_date": "2026-04-20T00:19:17.471000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5213,7 +5370,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5245,7 +5403,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5277,7 +5436,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5309,7 +5469,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5341,7 +5502,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5373,7 +5535,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5405,7 +5568,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5437,7 +5601,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5469,7 +5634,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5501,7 +5667,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5533,7 +5700,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": false,
@@ -5565,7 +5733,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -5597,7 +5766,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5629,7 +5799,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -5661,7 +5832,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5693,7 +5865,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5725,7 +5898,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5757,7 +5931,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5789,7 +5964,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5821,7 +5997,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 1
   },
   {
     "region_newcastle": true,
@@ -5853,7 +6030,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 2
   },
   {
     "region_newcastle": true,
@@ -5885,7 +6063,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5917,7 +6096,8 @@
     "updated_date": "2026-04-20T00:19:16.672000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -5949,7 +6129,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -5981,7 +6162,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6013,7 +6195,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6045,7 +6228,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -6077,7 +6261,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -6109,7 +6294,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": false,
@@ -6141,7 +6327,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6173,7 +6360,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6205,7 +6393,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -6237,7 +6426,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6269,7 +6459,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6301,7 +6492,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6333,7 +6525,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6365,7 +6558,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6397,7 +6591,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6429,7 +6624,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6461,7 +6657,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -6493,7 +6690,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6525,7 +6723,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6557,7 +6756,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6589,7 +6789,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6621,7 +6822,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6653,7 +6855,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6685,7 +6888,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -6717,7 +6921,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -6749,7 +6954,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -6781,7 +6987,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -6813,7 +7020,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -6845,7 +7053,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": true,
@@ -6877,7 +7086,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -6909,7 +7119,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -6941,7 +7152,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": false,
@@ -6973,7 +7185,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -7005,7 +7218,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7037,7 +7251,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7069,7 +7284,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7101,7 +7317,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7133,7 +7350,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -7165,7 +7383,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 28
   },
   {
     "region_newcastle": true,
@@ -7197,7 +7416,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 28
   },
   {
     "region_newcastle": true,
@@ -7229,7 +7449,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7261,7 +7482,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7293,7 +7515,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7325,7 +7548,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7357,7 +7581,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7389,7 +7614,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7421,7 +7647,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7453,7 +7680,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7485,7 +7713,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7517,7 +7746,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7549,7 +7779,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7581,7 +7812,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -7613,7 +7845,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7645,7 +7878,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -7677,7 +7911,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7709,7 +7944,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7741,7 +7977,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7773,7 +8010,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7805,7 +8043,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -7837,7 +8076,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7869,7 +8109,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7901,7 +8142,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -7933,7 +8175,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": true,
@@ -7965,7 +8208,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -7997,7 +8241,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -8029,7 +8274,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 14
   },
   {
     "region_newcastle": true,
@@ -8061,7 +8307,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -8093,7 +8340,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -8125,7 +8373,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": false,
@@ -8157,7 +8406,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": false,
@@ -8189,7 +8439,8 @@
     "updated_date": "2026-04-20T00:19:16.671000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -8221,7 +8472,8 @@
     "updated_date": "2026-04-20T00:19:16.670000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -8253,7 +8505,8 @@
     "updated_date": "2026-04-20T00:19:16.670000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -8285,7 +8538,8 @@
     "updated_date": "2026-04-20T00:19:16.670000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   },
   {
     "region_newcastle": true,
@@ -8317,7 +8571,8 @@
     "updated_date": "2026-04-20T00:19:16.670000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -8349,7 +8604,8 @@
     "updated_date": "2026-04-20T00:19:16.670000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 0
   },
   {
     "region_newcastle": true,
@@ -8381,6 +8637,7 @@
     "updated_date": "2026-04-20T00:19:16.670000",
     "created_by_id": "69d5af7b673543bad17c7127",
     "created_by": "admin@lmnspn.org.au",
-    "is_sample": false
+    "is_sample": false,
+    "wait_time_days": 30
   }
 ]

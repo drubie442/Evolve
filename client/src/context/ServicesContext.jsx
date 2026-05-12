@@ -1,11 +1,13 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
+const CACHE_KEY = "support-services-v3";
+
 const ServicesContext = createContext(null);
 
 export function ServicesProvider({ children }) {
   const [services, setServices] = useState(() => {
     try {
-      const cached = sessionStorage.getItem("support-services");
+      const cached = sessionStorage.getItem(CACHE_KEY);
       return cached ? JSON.parse(cached) : null;
     } catch {
       return null;
@@ -23,7 +25,7 @@ export function ServicesProvider({ children }) {
         return res.json();
       })
       .then((data) => {
-        sessionStorage.setItem("support-services", JSON.stringify(data));
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify(data));
         setServices(data);
       })
       .catch((err) => setError(err.message))

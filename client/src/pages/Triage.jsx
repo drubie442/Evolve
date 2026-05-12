@@ -35,6 +35,8 @@ export default function Triage() {
   const jumpToCrisis = searchParams.get("step") === "crisis";
   const modeClass = mode === "elder" ? "mode-elder" : "";
 
+  const urgency = searchParams.get("urgency") || "planning";
+
   const [step, setStep] = useState(jumpToCrisis ? 2 : 1);
   const [forSelf, setForSelf] = useState(true);
   const [concerns, setConcerns] = useState(jumpToCrisis ? ["crisis"] : []);
@@ -46,6 +48,7 @@ export default function Triage() {
   function finish(selectedRegion) {
     saveSelections({
       forSelf,
+      urgency,
       concerns: concerns.length ? concerns : ["general"],
       ageGroup,
       region: selectedRegion,

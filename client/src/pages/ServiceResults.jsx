@@ -31,6 +31,15 @@ const CONCERN_CATEGORY_MAP = {
   general: null,
 };
 
+// crisis     → wait_time_days === 0 (available now)
+// struggling  → wait_time_days <= 2 (available within 1-2 days)
+function meetsUrgency(service, urgency) {
+  const days = service.wait_time_days;
+  if (urgency === "crisis") return days === 0;
+  if (urgency === "struggling") return days <= 2;
+  return true;
+}
+
 function filterServices(services, selections) {
   if (!services) return [];
   if (!selections) return services;
@@ -75,6 +84,11 @@ function filterServices(services, selections) {
     if (a.key_service && !b.key_service) return -1;
     return (a.name || "").localeCompare(b.name || "");
   });
+
+  // Urgency / availability filter using the pre-computed wait_time_days field
+  if (selections.urgency === "crisis" || selections.urgency === "struggling") {
+    filtered = filtered.filter((s) => meetsUrgency(s, selections.urgency));
+  }
 
   return filtered;
 }
@@ -133,10 +147,22 @@ export default function ServiceResults() {
           Matched Services
         </h1>
 
-        {(ageLabel || regionLabel) && (
+        {(ageLabel || regionLabel || selections?.urgency) && (
           <p className="text-muted mb-6">
-            Showing services for{ageLabel ? ` ${ageLabel}` : ""}
-            {regionLabel ? ` in ${regionLabel}` : ""}.
+            {selections?.urgency === "crisis" &&
+              "Showing services available right now"}
+            {selections?.urgency === "struggling" &&
+              "Showing services available within 1–2 days"}
+            {selections?.urgency === "planning" &&
+              "Showing all matching services"}
+            {(ageLabel || regionLabel) && (
+              <>
+                {" "}
+                for{ageLabel ? ` ${ageLabel}` : ""}
+                {regionLabel ? ` in ${regionLabel}` : ""}
+              </>
+            )}
+            .
           </p>
         )}
 
