@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import {
   clearAuth,
   getUser,
@@ -6,6 +6,10 @@ import {
   isLoggedIn,
   isStaff,
 } from "../utils/auth";
+
+function navClass({ isActive }) {
+  return isActive ? "nav-link nav-link--active" : "nav-link";
+}
 
 export default function Nav() {
   const navigate = useNavigate();
@@ -28,27 +32,40 @@ export default function Nav() {
         <div className="nav-links">
           {!loggedIn && (
             <>
-              <Link to="/carer/login">Carer sign in</Link>
-              <Link to="/register" className="btn btn-primary btn-sm">
+              <NavLink to="/carer/login" className={navClass}>
+                Carer sign in
+              </NavLink>
+              <NavLink to="/register" className="btn btn-primary btn-sm">
                 Register as carer
-              </Link>
+              </NavLink>
+              <NavLink to="/login" className="btn btn-ghost btn-sm">
+                Staff
+              </NavLink>
             </>
           )}
 
           {loggedIn && isCarer() && (
             <>
-              <Link to="/carer">My Dashboard</Link>
-              <Link to="/carer/submit" className="btn btn-primary btn-sm">
+              <NavLink to="/carer" end className={navClass}>
+                My Dashboard
+              </NavLink>
+              <NavLink to="/carer/submit" className="btn btn-primary btn-sm">
                 + Submit Ticket
-              </Link>
+              </NavLink>
             </>
           )}
 
           {loggedIn && isStaff() && (
             <>
-              <Link to="/dashboard">Ticket Queue</Link>
-              <Link to="/bookings">Auto-Bookings</Link>
-              <Link to="/patients">Patients</Link>
+              <NavLink to="/dashboard" className={navClass}>
+                Ticket Queue
+              </NavLink>
+              <NavLink to="/bookings" className={navClass}>
+                Auto-Bookings
+              </NavLink>
+              <NavLink to="/patients" className={navClass}>
+                Patients
+              </NavLink>
             </>
           )}
 
