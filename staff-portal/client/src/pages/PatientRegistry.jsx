@@ -119,13 +119,29 @@ export default function PatientRegistry() {
                 <div className="ticket-card__meta">
                   {p.phone && <span>📱 {p.phone}</span>}
                   {p.email && <span>📧 {p.email}</span>}
+                  <span
+                    style={{
+                      marginLeft: "auto",
+                      fontSize: "0.75rem",
+                      padding: "0.15rem 0.55rem",
+                      borderRadius: "999px",
+                      background: p.source === "wearable" ? "#dbeafe" : "#dcfce7",
+                      color: p.source === "wearable" ? "#1d4ed8" : "#15803d",
+                      fontWeight: 600,
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {p.source === "wearable" ? "📲 Wearable/QR" : "👤 Carer referred"}
+                  </span>
                 </div>
 
                 <div
                   className="ticket-card__meta"
                   style={{ marginTop: "0.4rem" }}
                 >
-                  <span>🏥 {p.serviceName || p.serviceId}</span>
+                  {p.serviceName || p.serviceId
+                    ? <span>🏥 {p.serviceName || p.serviceId}</span>
+                    : <span style={{ color: "var(--text-muted)" }}>No service assigned</span>}
                 </div>
 
                 {p.notes && <p className="ticket-card__concern">{p.notes}</p>}
@@ -148,7 +164,7 @@ export default function PatientRegistry() {
                   <span style={{ flex: 1 }}>{p.guid}</span>
                   <CopyButton text={p.guid} />
                   <CopyButton
-                    text={`http://localhost:3001/api/refer/${p.guid}`}
+                    text={`${window.location.origin}/api/refer/${p.guid}`}
                     label="Copy Full URL"
                   />
                 </div>

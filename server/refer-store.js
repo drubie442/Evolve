@@ -83,6 +83,7 @@ seedPatients.forEach((p) => {
   const service = findService(p.serviceId);
   patients.set(p.guid, {
     ...p,
+    source: "wearable",
     serviceName: service ? service.name : p.serviceId,
     serviceCategory: service ? service.category : "",
   });
@@ -185,9 +186,40 @@ function getPatients() {
   return Array.from(patients.values());
 }
 
+/**
+ * Register a patient from any source (carer ticket, intake form, etc.).
+ * Deduplicates by email then phone — returns the existing record if matched.
+ */
+function registerPatient(data) {
+  const existing = Array.from(patients.values()).find(
+    (p) =>
+      (data.email && p.email && p.email.toLowerCase() === data.email.toLowerCase()) ||
+      (data.phone && p.phone && p.phone === data.phone),
+  );
+  if (existing) return existing;
+
+  const guid = makeId();
+  const service = data.serviceId ? findService(data.serviceId) : null;
+  const patient = {
+    guid,
+    source: data.source || "carer",
+    name: data.name,
+    dob: data.dob || null,
+    phone: data.phone || "",
+    email: data.email || "",
+    serviceId: data.serviceId || null,
+    notes: data.notes || "",
+    serviceName: service ? service.name : null,
+    serviceCategory: service ? service.category : null,
+  };
+  patients.set(guid, patient);
+  return patient;
+}
+
 module.exports = {
   getPatientByGuid,
   getPatients,
+  registerPatient,
   createBooking,
   getBookings,
   getBookingById,

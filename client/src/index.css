@@ -224,7 +224,37 @@ input[type="text"]:focus, input[type="tel"]:focus {
 }
 label { display: block; font-weight: 600; margin-bottom: var(--space-2); }
 
+.nav__hamburger { display: none; }
+.nav__mobile-menu { display: none; }
+
 @media (max-width: 600px) {
   .nav__links { display: none; }
   .landing-btn { font-size: var(--text-lg); }
+  .nav__hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--clr-primary-dark);
+    padding: var(--space-1) var(--space-2);
+  }
+  .nav__mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    border-top: 1px solid var(--clr-border);
+    background: rgba(255,255,255,0.96);
+  }
+  .nav__mobile-menu a {
+    color: var(--clr-text-muted);
+    font-size: var(--text-base);
+    text-decoration: none;
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--clr-border);
+  }
+  .nav__mobile-menu a:last-child { border-bottom: none; }
 }

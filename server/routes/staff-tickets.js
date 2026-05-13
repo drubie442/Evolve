@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { requireAuth, requireStaff } = require('../middleware/staff-auth');
+const { registerPatient } = require('../refer-store');
 const {
   createTicket,
   getTickets,
@@ -37,6 +38,15 @@ router.post('/', requireAuth, (req, res) => {
     patientEmail,
     concern,
     urgency: urgency || 'medium',
+  });
+
+  // Add patient to the unified patient registry (deduplicates by email/phone)
+  registerPatient({
+    name: patientName,
+    phone: patientPhone || '',
+    email: patientEmail || '',
+    notes: concern,
+    source: 'carer',
   });
 
   const gamification = awardTicketPoints(req.user.id, urgency);
