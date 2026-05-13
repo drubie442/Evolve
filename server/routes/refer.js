@@ -11,6 +11,18 @@ const {
 
 const VALID_STATUSES = ["pending", "confirmed", "cancelled"];
 
+// GET /api/refer/demo-patients — public: minimal patient info for the demo QR page
+router.get("/demo-patients", (req, res) => {
+  res.json(
+    getPatients().map(({ guid, name, serviceName, serviceCategory }) => ({
+      guid,
+      name,
+      serviceName,
+      serviceCategory,
+    })),
+  );
+});
+
 // GET /api/refer/patients — staff only: list all registered patients
 router.get("/patients", requireStaff, (req, res) => {
   res.json(getPatients());

@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
 import Admin from "./pages/Admin";
+import DemoQR from "./pages/DemoQR";
 import ForAFriend from "./pages/ForAFriend";
 import Handoff from "./pages/Handoff";
 import Landing from "./pages/Landing";
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/for-a-friend" element={<ForAFriend />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/services" element={<ServiceResults />} />
+        <Route path="/demo-qr" element={<DemoQR />} />
       </Routes>
     </BrowserRouter>
   );
