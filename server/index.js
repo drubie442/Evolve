@@ -30,6 +30,10 @@ const publicDir = path.join(__dirname, "public");
 app.use(express.static(publicDir));
 
 // Serve staff portal SPA under /staff/
+
+// In production (Docker) the built staff app is copied to ./staff-portal;
+// in dev the source lives at ../staff-portal/client/dist.
+
 const staffDir =
   process.env.NODE_ENV === "production"
     ? path.join(__dirname, "staff-portal")

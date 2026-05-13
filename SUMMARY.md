@@ -4,6 +4,26 @@
 
 Evolve connects vulnerable people to support services instantly — via wearables, QR codes or carers — triaging needs and booking the right service automatically, so help arrives faster.
 
+### Business Challenges
+
+Patients present to Emergency wards when in crisis but the LMNSPN would prefer they had resources at hand to help instead of falling back to the emergency room.
+
+The LMNSPN feels they do not have enough outreach and need to address that.
+
+The LMNSPN is not a regularly referred service by carers, doctors, nurses and other health professionals when presented with patients in crisis.
+
+Some of the patients in crisis do not have access to phones/computers or are not technology literate enough and require help to contact LMNSPN.
+
+Ideas
+
+Create a triage page for patients in crisis to quickly get help.
+
+Create a service lookup for patients who are looking for resources aimed at their current mental health state.
+
+Create a referral portal that encourages carers to refer patients to LMNSPN including gamified rewards to encourage engagement.
+
+Create an API for future use via wearables or environment based NFC devices to integrate with physical objects like brochures or posters.
+
 ---
 
 ## Public-Facing App
@@ -82,6 +102,37 @@ Built for service workers — hospital discharge staff, GPs, social workers, pol
 ### Seed login
 
 Staff access: `staff@evolve.org.au` / `evolve2024`
+
+---
+
+## Wearable & QR Auto-Referral API (`/api/refer`)
+
+A zero-friction referral pathway for patients who have been pre-registered by a clinician — for example, hospital discharge patients given a wearable device or a personalised QR code card.
+
+### How it works
+
+Each patient is assigned a unique GUID at registration. That GUID is embedded in a QR code or wearable. When the patient scans the QR code (or the device calls home), a booking is automatically created against their pre-assigned support service — no app, no login, no form to fill in.
+
+### Endpoints
+
+| Method         | Path                             | Auth   | Description                                                                                                |
+| -------------- | -------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------- |
+| `GET` / `POST` | `/api/refer/:guid`               | Public | Triggered by QR scan or wearable. Looks up patient by GUID, creates a booking with their assigned service. |
+| `GET`          | `/api/refer/patients`            | Staff  | List all pre-registered patients and their assigned services.                                              |
+| `GET`          | `/api/refer/bookings`            | Staff  | List all auto-created bookings. Filterable by `status`.                                                    |
+| `GET`          | `/api/refer/bookings/:id`        | Staff  | Single booking detail.                                                                                     |
+| `PATCH`        | `/api/refer/bookings/:id/status` | Staff  | Update booking status: `pending` → `confirmed` or `cancelled`.                                             |
+
+`GET` is supported on the referral endpoint so that scanning a QR code in a mobile browser triggers the booking directly, without needing a dedicated app.
+
+### Patient Registry
+
+Each patient record holds: name, date of birth, phone, email, assigned service ID, and clinical notes. Six patients are seeded for demonstration.
+
+### Staff Portal — new pages
+
+- **Auto-Bookings** — review all inbound auto-referral bookings, confirm or cancel each one
+- **Patient Registry** — search registered patients, copy their GUID or referral URL for use on printed cards or wearables
 
 ---
 
