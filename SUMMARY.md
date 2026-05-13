@@ -14,7 +14,7 @@ The LMNSPN is not a regularly referred service by carers, doctors, nurses and ot
 
 Some of the patients in crisis do not have access to phones/computers or are not technology literate enough and require help to contact LMNSPN.
 
-Ideas
+### Ideas
 
 Create a triage page for patients in crisis to quickly get help.
 
