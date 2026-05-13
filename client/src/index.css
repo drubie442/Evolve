@@ -139,6 +139,21 @@ img { max-width: 100%; display: block; }
 .nav__links a { color: var(--clr-text-muted); }
 .nav__links a:hover { color: var(--clr-primary); text-decoration: none; }
 
+/* Evolve Call Panel */
+.evolve-call-panel {
+  display: flex; align-items: center; gap: 1rem;
+  background: var(--clr-primary-dark); color: #fff;
+  border-radius: 14px; padding: 1rem 1.25rem;
+  text-decoration: none; margin-bottom: 1.25rem;
+  transition: opacity 0.15s;
+}
+.evolve-call-panel:hover { opacity: 0.9; text-decoration: none; color: #fff; }
+.evolve-call-panel__icon { font-size: 1.75rem; flex-shrink: 0; }
+.evolve-call-panel__body { display: flex; flex-direction: column; flex: 1; gap: 0.15rem; }
+.evolve-call-panel__label { font-size: 0.9rem; opacity: 0.88; }
+.evolve-call-panel__number { font-size: 1.4rem; font-weight: 900; letter-spacing: 0.02em; }
+.evolve-call-panel__cta { background: rgba(255,255,255,0.2); border-radius: 8px; padding: 0.45rem 1rem; font-weight: 700; font-size: 0.9rem; white-space: nowrap; flex-shrink: 0; }
+
 /* Page */
 .page { padding: var(--space-12) 0; flex: 1; }
 

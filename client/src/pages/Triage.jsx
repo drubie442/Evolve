@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { useTriageSelections } from "../context/TriageContext";
 import CrisisBanner from "../components/CrisisBanner";
+import EvolveCallPanel from "../components/EvolveCallPanel";
 
 const CONCERNS = [
   { value: "anxiety", label: "😰 Anxiety" },
@@ -85,6 +86,8 @@ export default function Triage() {
         >
           ← Back
         </Link>
+
+        {!jumpToCrisis && <EvolveCallPanel />}
 
         <div className="steps">
           {[1, 2, 3, 4].map((s) => (

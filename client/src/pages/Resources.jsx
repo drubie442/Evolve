@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import ResourceCard from '../components/ResourceCard';
+import EvolveCallPanel from '../components/EvolveCallPanel';
 
 const CONCERN_FILTERS = [
   { value: 'all', label: 'All' },
@@ -51,6 +52,8 @@ export default function Resources() {
           Find Support
         </h1>
         <p className="text-muted mb-6">Free and low-cost mental health services available in the Hunter region.</p>
+
+        <EvolveCallPanel />
 
         <div style={{ marginBottom: '1rem' }}>
           <p style={{ fontWeight: 600, fontSize: 'var(--text-sm)', marginBottom: '0.5rem', color: 'var(--clr-text-muted)' }}>FILTER BY CONCERN</p>

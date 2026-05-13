@@ -1,6 +1,9 @@
+import EvolveCallPanel from "./EvolveCallPanel";
+
 export default function CrisisBanner() {
   return (
     <div className="crisis-banner" role="alert">
+      <EvolveCallPanel />
       <div className="crisis-banner__title">⚠️ If you are in immediate danger, call 000 now</div>
       <div className="crisis-contacts">
         <a className="btn btn--crisis btn--full" href="tel:000">
