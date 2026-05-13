@@ -141,3 +141,5 @@ Each patient record holds: name, date of birth, phone, email, assigned service I
 Hosted on **Azure Container Apps** — a single Docker container serving both the public app and the carer/staff portal.
 
 **Live URL:** https://evolve-app.delightfulpebble-5e64afb1.australiaeast.azurecontainerapps.io
+
+**Short URL:** https://shorturl.at/LMcsj
